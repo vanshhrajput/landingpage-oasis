@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery</title>
+    <style>
+        /* CSS for your styles (unchanged from previous code) */
+
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('background.jpg');
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .food-item {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 1rem;
+            margin: 1rem 0;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .food-item img {
+            max-width: 40%;
+            height: auto;
+        }
+
+        .food-item h2 {
+            font-size: 1.5rem;
+            margin-top: 0.5rem;
+        }
+
+        .food-item p {
+            font-size: 1rem;
+            margin-top: 0;
+        }
+
+        .btn {
+            background-color: #f04e23;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #d03c1e;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        /* Navigation bar styles */
+        nav {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        nav a:hover {
+            color: #f04e23;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Food Delivery</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="food-item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Pizza-3007395.jpg" alt="Food Item 1">
+            <h2>Pizza</h2>
+            <p><i>Indulge in pizza perfection with our irresistible creations! Our hand-tossed, stone-baked crusts are the foundation for the freshest ingredients and mouthwatering toppings. From classic Margherita to gourmet specialties, each slice is a journey of flavors. Whether you're craving a quick bite or a feast with friends, our pizzas are crafted to satisfy. Discover your new favorite pizza today!</i></p>
+            <p>Price: 250 Rs. only</p>
+            <a href="#" class="btn">Order Now</a>
+        </div>
+        <div class="food-item">
+            <img src="hamburger-31775_1280.png" alt="Food Item 2">
+            <h2>Burger</h2>
+            <p><i>Savor the ultimate burger experience with our mouthwatering creations! Each bite of our juicy, perfectly seasoned patties, nestled in freshly baked buns, and topped with the finest ingredients, is a delight for your taste buds. From classic cheeseburgers to gourmet specials, our menu offers something for every burger lover. Come and indulge in the best burgers in town—where flavor meets perfection!</i></p>
+            <p>Price:90 Rs. only</p>
+            <a href="#" class="btn">Order Now</a>
+        </div>
+        <!-- Add more food items here with online image URLs -->
+    </div>
+    <footer>
+        &copy; 2023 Food Delivery. All rights reserved.
+    </footer>
+</body>
+</html>
